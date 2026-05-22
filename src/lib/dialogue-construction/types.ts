@@ -116,7 +116,7 @@ export interface QuestionSkillOutputConstraints {
   maxQuestions: 1;
   avoidMultiQuestion: true;
   avoidOverExplanation: true;
-  avoidAbstractTalk: true;
+  avoidAbstractTalk: boolean;
 }
 
 export interface QuestionSkillOutput {
