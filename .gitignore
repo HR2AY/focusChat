@@ -32,6 +32,9 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+.env.local
+.env.production
+.env.development
 
 # vercel
 .vercel
@@ -39,3 +42,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local server/runtime files
+.pm2/
+logs/
+*.log
+
+# deployment/media overrides
+public/scene-background.mp4
+public/scene-ambience.mp3
